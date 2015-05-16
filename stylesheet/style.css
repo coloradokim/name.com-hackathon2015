@@ -65,7 +65,12 @@ h1 {
 }
 
 header {
-  background-color: rgba(179,120,58,.3);
+  height: 150px;
+  background-color: rgba(39,92,122,.3);
+  background-image:
+    linear-gradient(
+			rgba(39,92,122,.3), #f06d06
+    );
 }
 
 section.column {
@@ -81,11 +86,11 @@ section img {
 
 button {
 	border-radius:6px;
-	border:1px solid #d83526;
+	background-color: #f06d06
+	border:1px solid black
 	display:inline-block;
 	cursor:pointer;
 	color:black;
-	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 24px;
@@ -96,12 +101,16 @@ button {
 nav {
   padding: 20px;
 	clear: both;
-	background-color: rgba(179,120,58,.3);
+  height: 75px;
+	background-color: rgba(39,92,122,.3);
+	background-image:
+		linear-gradient(
+			rgba(39,92,122,.3), #f06d06
+		);
 }
 
 nav a {
   color: black;
-  font: helvetica;
   font-size: 20px;
   padding: 10px;
 	text-decoration:none;
