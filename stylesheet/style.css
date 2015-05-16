@@ -52,32 +52,51 @@ table {
   box-sizing: border-box;
 }
 
+body {
+	background-color: rgba(39,92,122,.3);
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
 h1 {
-  font: "Helvetica", sans-serif;
   font-size: 40px;
   padding: 20px;
+	font-weight: bold;
+	text-align: center;
 }
 
 header {
-  background-color: rgba(156,167,189,.5);
-}
-
-form {
-  padding: 50px;
-  margin: auto;
+  background-color: rgba(179,120,58,.3);
 }
 
 section.column {
+	display: inline;
+	padding: 20px;
   width: 32%;
   float: left;
-  margin-right: 7px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+}
+
+section img {
+	margin: 7px 5px;
+}
+
+button {
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	margin: auto;
 }
 
 nav {
   padding: 20px;
+	clear: both;
+	background-color: rgba(179,120,58,.3);
 }
 
 nav a {
@@ -85,4 +104,5 @@ nav a {
   font: helvetica;
   font-size: 20px;
   padding: 10px;
+	text-decoration:none;
 }
